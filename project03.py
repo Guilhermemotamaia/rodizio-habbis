@@ -25,43 +25,43 @@ esfirra07 = int(input('Quantas  BIB’SFIHA 4 QUEIJOS VOCÊ COMEU OU VAI COMER?'
 esfirra08 = int(input('Quantas  BIB’SFIHA DE FRANGO COM CREMELY VOCÊ COMEU OU VAI COMER?'))
 
 if esfirra01 != 0:
-    print(f'\033[1:40m Esfirra de calabresa com mussarela Quantidades[{esfirra01}]: \n Calorias: {calabresa[1] * esfirra01} \n Carboidratos: {calabresa[0] * esfirra01} \n'
-          f' proteínas: {calabresa[2] * esfirra01:_.2f} \n Gordura:{calabresa[3] * esfirra01:_.2f} \n Sódio: {calabresa[4] * esfirra01:_.2f}')
+    print(f'\033[1:40m Esfirra de calabresa com mussarela Quantidades[{esfirra01}]: \n Calorias: {calabresa[1] * esfirra01:_.2f}kcal \n Carboidratos: {calabresa[0] * esfirra01:_.2f}g \n'
+          f' proteínas: {calabresa[2] * esfirra01:_.2f}g \n Gordura: {calabresa[3] * esfirra01:_.2f}g \n Sódio: {calabresa[4] * esfirra01:}mg')
 sleep(1)
 
 if esfirra02 != 0:
-    print(f'\033[0:1:40mEsfirra de espinafre Quantidades[{esfirra02}]: \n Calorias: {espinafre[1] * esfirra02} \n Carboidratos: {espinafre[0] * esfirra02} \n'
-        f' proteínas: {espinafre[2] * esfirra02:_.2f} \n Gordura:{espinafre[3] * esfirra02:_.2f} \n Sódio: {espinafre[4] * esfirra02:_.2f}')
+    print(f'\033[0:1:40mEsfirra de espinafre Quantidades[{esfirra02}]: \n Calorias: {espinafre[1] * esfirra02}kcal \n Carboidratos: {espinafre[0] * esfirra02}g \n'
+        f' proteínas: {espinafre[2] * esfirra02:_.2f}g \n Gordura: {espinafre[3] * esfirra02:_.2f}g \n Sódio: {espinafre[4] * esfirra02}mg')
 sleep(1)
 
 if esfirra03 != 0:
-    print(f'\033[0:1:40mEsfirra de carne Quantidades[{esfirra03}]: \n Calorias: {carne[1] * esfirra03} \n Carboidratos: {carne[0] * esfirra03} \n'
-        f' proteínas: {carne[2] * esfirra03:_.2f} \n Gordura:{carne[3] * esfirra03:_.2f} \n Sódio: {carne[4] * esfirra03:_.2f}')
+    print(f'\033[0:1:40mEsfirra de carne Quantidades[{esfirra03}]: \n Calorias: {carne[1] * esfirra03}kcal \n Carboidratos: {carne[0] * esfirra03}g \n'
+        f' proteínas: {carne[2] * esfirra03:_.2f}g \n Gordura: {carne[3] * esfirra03:_.2f}g \n Sódio: {carne[4] * esfirra03}mg')
 sleep(1)
 
 if esfirra04 != 0:
-    print(f'\033[0:1:40mEsfirra de frango Quantidades[{esfirra04}]: \n Calorias: {frango[1] * esfirra04} \n Carboidratos: {frango[0] * esfirra04} \n'
-        f' proteínas: {frango[2] * esfirra04:_.2f} \n Gordura:{frango[3] * esfirra04:_.2f} \n Sódio: {frango[4] * esfirra04:_.2f}')
+    print(f'\033[0:1:40mEsfirra de frango Quantidades[{esfirra04}]: \n Calorias: {frango[1] * esfirra04}kcal \n Carboidratos: {frango[0] * esfirra04}g \n'
+        f' proteínas: {frango[2] * esfirra04:_.2f}g \n Gordura: {frango[3] * esfirra04:_.2f}g \n Sódio: {frango[4] * esfirra04}mg')
 sleep(1)
 
 if esfirra05 != 0:
-    print(f'\033[0:1:40mEsfirra Italiana Quantidades[{esfirra05}]: \n Calorias: {italiana[1] * esfirra05} \n Carboidratos: {italiana[0] * esfirra05} \n'
-        f' proteínas: {italiana[2] * esfirra05:_.2f} \n Gordura:{italiana[3] * esfirra05:_.2f} \n Sódio: {italiana[4] * esfirra05:_.2f}')
+    print(f'\033[0:1:40mEsfirra Italiana Quantidades[{esfirra05}]: \n Calorias: {italiana[1] * esfirra05}kcal \n Carboidratos: {italiana[0] * esfirra05}g \n'
+        f' proteínas: {italiana[2] * esfirra05:_.2f}g \n Gordura: {italiana[3] * esfirra05:_.2f}g \n Sódio: {italiana[4] * esfirra05}mg')
 sleep(1)
 
 if esfirra06 != 0:
-    print(f'\033[0:1:40mEsfirra de queijo Quantidades[{esfirra06}]: \n Calorias: {queijo[1] * esfirra06} \n Carboidratos: {queijo[0] * esfirra06} \n'
-        f' proteínas: {queijo[2] * esfirra06:_.2f} \n Gordura:{queijo[3] * esfirra06:_.2f} \n Sódio: {queijo[4] * esfirra06:_.2f}')
+    print(f'\033[0:1:40mEsfirra de queijo Quantidades[{esfirra06}]: \n Calorias: {queijo[1] * esfirra06}kcal \n Carboidratos: {queijo[0] * esfirra06}g \n'
+        f' proteínas: {queijo[2] * esfirra06:_.2f}g \n Gordura: {queijo[3] * esfirra06:_.2f}g \n Sódio: {queijo[4] * esfirra06}mg')
 sleep(1)
 
 if esfirra07 != 0:
-    print(f'\033[0:1:40mEsfirra de 4 queijos  Quantidades[{esfirra07}]: \n Calorias: {fourqueijo[1] * esfirra07} \n Carboidratos: {fourqueijo[0] * esfirra07} \n'
-        f' proteínas: {fourqueijo[2] * esfirra07:_.2f} \n Gordura:{fourqueijo[3] * esfirra07:_.2f} \n Sódio: {fourqueijo[4] * esfirra07:_.2f}')
+    print(f'\033[0:1:40mEsfirra de 4 queijos  Quantidades[{esfirra07}]: \n Calorias: {fourqueijo[1] * esfirra07}kcal \n Carboidratos: {fourqueijo[0] * esfirra07:_.2f}g \n'
+        f' proteínas: {fourqueijo[2] * esfirra07:_.2f}g \n Gordura: {fourqueijo[3] * esfirra07:_.2f}g \n Sódio: {fourqueijo[4] * esfirra07}mg')
 sleep(1)
 
 if esfirra08 != 0:
-    print(f'\033[0:1:40mEsfirra de frango com cremely Quantidades[{esfirra08}]: \n Calorias: {frangocream[1] * esfirra08} \n Carboidratos: {frangocream[0] * esfirra08} \n'
-        f' proteínas: {frangocream[2] * esfirra08:_.2f} \n Gordura:{frangocream[3] * esfirra08:_.2f} \n Sódio: {frangocream[4] * esfirra08:_.2f}')
+    print(f'\033[0:1:40mEsfirra de frango com cremely Quantidades[{esfirra08}]: \n Calorias: {frangocream[1] * esfirra08}kcal \n Carboidratos: {frangocream[0] * esfirra08}g \n'
+        f' proteínas: {frangocream[2] * esfirra08:_.2f}g \n Gordura: {frangocream[3] * esfirra08:_.2f}g \n Sódio: {frangocream[4] * esfirra08}mg')
 
 
 sleep(1)
@@ -86,7 +86,7 @@ if esfirra08 != 0:
 
 sleep(1)
 print(f'\033[1:33mTotal de calorias:{calabresa[1] * esfirra01 + espinafre[1] * esfirra02 + carne[1] * esfirra03 + frango[1] * esfirra04 + italiana[1] * esfirra05 + queijo[1] * esfirra06 + fourqueijo[1] * esfirra07 + frangocream[1] * esfirra08} calorias')
-print(f'Total de carboidratos:{calabresa[0] * esfirra01 + espinafre[0] * esfirra02 + carne[0] * esfirra03 + frango[0] * esfirra04 + italiana[0] * esfirra05 + queijo[0] * esfirra06 + fourqueijo[0] * esfirra07 + frangocream[0] * esfirra08} gramas')
-print(f'Total de proteínas:{calabresa[2] * esfirra01 + espinafre[2] * esfirra02 + carne[2] * esfirra03 + frango[2] * esfirra04 + italiana[2] * esfirra05 + queijo[2] * esfirra06 + fourqueijo[2] * esfirra07 + frangocream[2] * esfirra08} gramas')
-print(f'Total de gordura:{calabresa[3] * esfirra01 + espinafre[3] * esfirra02 + carne[3] * esfirra03 + frango[3] * esfirra04 + italiana[3] * esfirra05 + queijo[3] * esfirra06 + fourqueijo[3] * esfirra07 + frangocream[3] * esfirra08} gramas')
+print(f'Total de carboidratos:{calabresa[0] * esfirra01 + espinafre[0] * esfirra02 + carne[0] * esfirra03 + frango[0] * esfirra04 + italiana[0] * esfirra05 + queijo[0] * esfirra06 + fourqueijo[0] * esfirra07 + frangocream[0] * esfirra08:_.2f} gramas')
+print(f'Total de proteínas:{calabresa[2] * esfirra01 + espinafre[2] * esfirra02 + carne[2] * esfirra03 + frango[2] * esfirra04 + italiana[2] * esfirra05 + queijo[2] * esfirra06 + fourqueijo[2] * esfirra07 + frangocream[2] * esfirra08:_.2f} gramas')
+print(f'Total de gordura:{calabresa[3] * esfirra01 + espinafre[3] * esfirra02 + carne[3] * esfirra03 + frango[3] * esfirra04 + italiana[3] * esfirra05 + queijo[3] * esfirra06 + fourqueijo[3] * esfirra07 + frangocream[3] * esfirra08:_.2f} gramas')
 print(f'Total de Sódio:{calabresa[4] * esfirra01 + espinafre[4] * esfirra02 + carne[4] * esfirra03 + frango[4] * esfirra04 + italiana[4] * esfirra05 + queijo[4] * esfirra06 + fourqueijo[4] * esfirra07 + frangocream[4] * esfirra08} mg')
